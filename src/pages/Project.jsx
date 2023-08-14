@@ -7,7 +7,7 @@ function Project() {
         <h2 className="text-5xl pb-4 text-center font-Rampart font-semibold text-gray-600">
           My Projects
         </h2>
-        <p className="text-center text-gray-500">
+        <p className="md:text-lg text-center text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
