@@ -4,7 +4,7 @@ import SidePhoto from "../assets/favpng_web-development-responsive-web-design.pn
 import AboutMe from "./AboutMe";
 import Project from "./Project";
 import Contacts from "./Contacts";
-import HairMe from "./HairMe";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -59,10 +59,9 @@ function Home() {
         </div>
 
         <AboutMe />
-
         <Project />
         <Contacts />
-        <HairMe />
+        <Footer />
       </div>
     </div>
   );
