@@ -14,7 +14,12 @@ const footer = {
 function Footer() {
   return (
     <div className="pb-20 flex">
-      <div className="w-2/5">sdsad</div>
+      <div className="w-2/5">
+        <form action="">
+          <input type="email" />
+          <button>Submit</button>
+        </form>
+      </div>
       <ul className="w-3/5 flex ">
         <div className="w-1/3">
           <ul>
