@@ -30,17 +30,17 @@ function Card({ imagen }) {
           nonummy nibh volutpat.
         </p>
 
-        <div className="pt-5 pb-5 flex flex-wrap gap-3 md:gap-5">
+        <div className="pt-10 pb-5 flex md:gap-5">
           <Button
             name={"View Project"}
             css={
-              "cursor-pointer text-base lg:text-lg max-md:w-full text-center md:px-5 py-2 md:py-2 hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-yellow-300 via-pink-100 to-yellow-300"
+              "w-1/2 p-2 cursor-pointer text-base lg:text-lg max-md:w-full text-center hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-yellow-300 via-pink-100 to-yellow-300"
             }
           />
           <Button
             name={"Git hab"}
             css={
-              "cursor-pointer text-base lg:text-lg max-md:w-full text-center md:px-8 py-2 md:py-1 hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-orange-300 via-pink-100 to-orange-400"
+              "w-1/2 p-2 cursor-pointer text-base lg:text-lg max-md:w-full text-center hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-orange-300 via-pink-100 to-orange-400"
             }
           />
         </div>

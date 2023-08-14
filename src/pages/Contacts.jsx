@@ -57,7 +57,7 @@ export default function Contacts() {
           </form>
         </div>
         <div className="flex justify-center">
-          <img className="w-[28rem]" src={SocalImage} alt="" />
+          <img className="w-[28rem] rotated" src={SocalImage} alt="" />
         </div>
       </div>
     </div>
