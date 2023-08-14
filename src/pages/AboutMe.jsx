@@ -22,7 +22,7 @@ function AboutMe() {
           <Button
             name={"Hier me"}
             css={
-              "text-base md:text-xl lg:text-2xl px-10 md:px-12 py-3 md:py-4 hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-yellow-300 via-pink-100 to-yellow-300"
+              "text-lg md:text-xl lg:text-2xl px-10 md:px-12 py-3 md:py-4 hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-yellow-300 via-pink-100 to-yellow-300"
             }
             link={"#contact"}
           />

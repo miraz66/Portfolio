@@ -18,13 +18,13 @@ function Home() {
             <p className="text-sm text-gray-500 font-Rampart font-semibold md:text-sm lg:text-xl">
               Welcome To My PorFollo
             </p>
-            <h2 className="text-base font-Rampart font-bold md:text-5xl xl:text-7xl">
+            <h2 className="font-Rampart font-bold text-5xl xl:text-7xl">
               Hi, I am Steven <br />{" "}
               <span className="text-2xl md:text-4xl xl:text-5xl">
                 web-developer
               </span>
             </h2>
-            <p className="text-sm md:text-lg lg:text-xl pt-10">
+            <p className="md:text-lg lg:text-xl pt-10">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Quibusdam quod veniam quis! Aut ullam porro repudiandae dolorem
               laboriosam facere pariatur. Corporis consequuntur tenetur
