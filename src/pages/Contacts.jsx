@@ -2,17 +2,17 @@ import SocalImage from "../assets/3-36485_social-media-clipart-png.png";
 
 export default function Contacts() {
   return (
-    <div id="contact" className="pt-32">
+    <div id="contacts" className="pt-32">
       <div className="text-center font-Rampart">
-        <h2 className="md:text-5xl font-semibold text-gray-600 pb-4">
+        <h2 className="text-4xl md:text-5xl font-semibold text-gray-600 pb-4">
           Contact Me
         </h2>
         <p className="md:text-lg text-gray-500">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
-      <div className="flex justify-between items-center mt-10">
-        <div className="w-1/2 mt-8 p-6 rounded ">
+      <div className="flex justify-between flex-wrap items-center mt-10">
+        <div className="w-full md:w-1/2 mt-8 p-6 rounded ">
           <form>
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium mb-1">
@@ -34,7 +34,7 @@ export default function Contacts() {
                 className="w-full border rounded py-2 px-3"
               />
             </div>
-            <div className="mb-4">
+            <div className="md:mb-4">
               <label
                 htmlFor="message"
                 className="block text-sm font-medium mb-1"
@@ -49,7 +49,7 @@ export default function Contacts() {
               />
             </div>
             <button
-              className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+              className="w-1/2 p-2 cursor-pointer text-base lg:text-lg max-md:w-full text-center hover:shadow-md shadow-xl rounded-md bg-gradient-to-br from-yellow-300 via-pink-100 to-yellow-300"
               type="submit"
             >
               Contact
