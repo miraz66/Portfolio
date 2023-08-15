@@ -11,7 +11,6 @@ function Home() {
     <div className="bg-gradient-to-br from-yellow-200 via-pink-100 to-yellow-100">
       {/* header components */}
       <Headers />
-
       <div className="max-w-7xl mx-auto px-10">
         <div className="flex justify-between max-lg:flex-wrap-reverse items-center 2xl:mt-10 xl:mt-5">
           <div className="w-full">
@@ -61,6 +60,9 @@ function Home() {
         <AboutMe />
         <Project />
         <Contacts />
+      </div>
+      .
+      <div className="bg-gradient-to-br from-lime-500 via-teal-400 to-lime-100 text-gray-800">
         <Footer />
       </div>
     </div>
