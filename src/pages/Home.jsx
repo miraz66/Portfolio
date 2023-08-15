@@ -17,7 +17,7 @@ function Home() {
             <p className="text-sm text-gray-500 font-Rampart font-semibold md:text-sm lg:text-xl">
               Welcome To My PorFollo
             </p>
-            <h2 className="font-Rampart font-bold text-5xl xl:text-7xl">
+            <h2 className="font-Rampart font-bold text-4xl lg:text-5xl xl:text-7xl">
               Hi, I am Steven <br />{" "}
               <span className="text-2xl md:text-4xl xl:text-5xl">
                 web-developer

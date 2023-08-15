@@ -61,19 +61,12 @@ export default function Header() {
             </div>
 
             <Disclosure.Panel className="sm:hidden">
-              <div className="space-y-1 px-2 pt-2 pb-3 bg-gray-700">
+              <div className="space-y-1 w-full px-2 pt-2 pb-3 bg--300 backdrop-filter backdrop-blur-lg absolute">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
                     href={item.href}
-                    className={({ isActive }) => {
-                      return (
-                        "block rounded-md px-3 py-2 text-base font-medium" +
-                        (!isActive
-                          ? " no-underline text-gray-300 hover:bg-gray-700 hover:text-white"
-                          : " no-underline bg-gray-900 text-white")
-                      );
-                    }}
+                    className="block hover:underline uppercase rounded-md px-3 py-2 text-base font-medium"
                   >
                     {item.name}
                   </a>
