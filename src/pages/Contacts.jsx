@@ -11,8 +11,9 @@ export default function Contacts() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
+
       <div className="flex justify-between flex-wrap items-center mt-10">
-        <div className="w-full md:w-1/2 mt-8 p-6 rounded ">
+        <div className="w-full mx-auto md:w-1/2 mt-8 p-6 rounded ">
           <form>
             <div className="mb-4">
               <label htmlFor="name" className="block text-sm font-medium mb-1">
@@ -56,7 +57,8 @@ export default function Contacts() {
             </button>
           </form>
         </div>
-        <div className="flex justify-center">
+
+        <div className="max-xl:w-full flex justify-center">
           <img className="w-[28rem] rotated" src={SocalImage} alt="" />
         </div>
       </div>

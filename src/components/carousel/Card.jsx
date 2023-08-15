@@ -30,7 +30,7 @@ function Card({ imagen }) {
           nonummy nibh volutpat.
         </p>
 
-        <div className="pt-10 pb-5 flex md:gap-5">
+        <div className="pt-10 pb-5 flex gap-3 md:gap-5 max-md:first-letter max-md:flex-wrap">
           <Button
             name={"View Project"}
             css={

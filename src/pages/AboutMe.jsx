@@ -4,7 +4,7 @@ import SideImage2 from "../assets/istockphoto-1181533674-612x612.jpg";
 function AboutMe() {
   return (
     <div id="about" className="py-32">
-      <div className="flex justify-between max-lg:flex-wrap-reverse">
+      <div className="flex justify-center xl:justify-between max-lg:flex-wrap-reverse">
         <div className="py-10">
           <h2 className="text-5xl md:text-6xl font-bold text-gray-600">
             About me
@@ -27,7 +27,8 @@ function AboutMe() {
             link={"#contact"}
           />
         </div>
-        <div className="flex justify-end">
+
+        <div className="flex justify-center">
           <div className="bg-yellow-400 md:pt-10 rounded-bl-[120px] md:mb-20">
             <img
               className="rounded-bl-[120px] md:-ml-10"
