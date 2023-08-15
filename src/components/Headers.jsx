@@ -5,7 +5,7 @@ const navigation = [
   { name: "About Me", href: "#about" },
   { name: "Project", href: "#project" },
   { name: "Contacts", href: "#contacts" },
-  { name: "hire Me", href: "#hireMe" },
+  { name: "hire Me", href: "#contacts" },
 ];
 
 export default function Header() {
