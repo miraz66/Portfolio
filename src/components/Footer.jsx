@@ -11,7 +11,7 @@ const footer = {
 
 function Footer() {
   return (
-    <div className="pt-20 pb-10 xl:flex max-w-7xl mx-auto flex-wrap">
+    <div className="pt-20 pb-10 mt-20 xl:flex max-w-7xl mx-auto flex-wrap">
       <div className="md:w-2/5 flex flex-col justify-between">
         <form className="flex w-full px-3">
           <input
