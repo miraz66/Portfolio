@@ -32,7 +32,7 @@ export default function Header() {
                   <div className="flex items-center">
                     <img className="w-10 md:w-16 xl:w-20" src={""} alt="" />
                     <a
-                      className="text-gray-400 font-bold text-3xl lg:text-5xl 2xl:text-6xl"
+                      className="text-gray-400 font-bold text-4xl lg:text-5xl 2xl:text-6xl"
                       href="http://localhost:5173/"
                     >
                       Steven
