@@ -1,7 +1,6 @@
 const footer = {
   platfrom: ["Home", "OverView", "Pricing", "About"],
   Help: ["How It Works?", "Pay?", "Question?", "Contact?"],
-
   Contact: [
     "(+000) 123456789",
     "116 Archlor Road Broadlaband",

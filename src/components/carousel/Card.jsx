@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Button from "../../utils/Button";
 
-function Card({ imagen }) {
+function Card({ imagen, name }) {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -24,7 +24,7 @@ function Card({ imagen }) {
     >
       <img className="rounded-t-xl" src={imagen} alt="" />
       <div className="p-3">
-        <h2 className="text-4xl">Title</h2>
+        <h2 className="text-4xl">{name}</h2>
         <p className="text-sm">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
           nonummy nibh volutpat.

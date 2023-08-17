@@ -12,6 +12,7 @@ function Carousel3D() {
     },
     {
       key: uuidv4(),
+
       content: (
         <Card imagen="https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png" />
       ),
